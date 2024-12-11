@@ -84,6 +84,9 @@ nav a {
 }
 
 /* about us section */
+.about-website {
+  background-color: #fef8f2;
+}
 .about-title {
   display: flex;
   justify-content: center;
@@ -107,6 +110,8 @@ nav a {
 
 .location-heading p {
   font-size: 14px;
+  color: #0d0d0c;
+  width: 400px;
 }
 
 .location-heading h3 {
@@ -114,18 +119,57 @@ nav a {
 }
 
 .photo-trip-box {
-  border: 1px solid #ffffff74;
+  border: 1px solid gray;
   border-radius: 10px;
+  background-color: var(--app-white);
 }
 
 .location-pic {
-  height: 385px;
-  width: 588px;
+  height: 355px;
+  width: 558px;
   margin: 15px;
   border-radius: 10px;
+}
+
+.location-buttons {
+  height: calc(100% - 46px - 169px);
+  display: flex;
+  align-items: end;
+  gap: 10px;
+}
+
+.location-buttons button{
+  height: 39px;
+  width: 124px;  
+  border: 1px solid var(--app-brown);  
+  border-radius: 5px;
+}
+
+.info-btn {
+  background-color: var(--app-brown);
+}
+
+.scedule-btn {
+  background-color: var(--app-white);
+}
+
+.location:nth-of-type(3) {
+  margin: 150px 0;
 }
 
 .mt-fuji {
   background-image: url(../img/mt-fiji.jpg);
   background-position: 90% 50%;
+}
+
+.italy {
+  background-image: url(../img/paris.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.test  {
+  background-image: url(../img/colosseum.jpg);
+  background-position: center;
+  background-size: cover;
 }
