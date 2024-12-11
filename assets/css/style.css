@@ -168,8 +168,39 @@ nav a {
   background-size: cover;
 }
 
-.test  {
+.colosseum  {
   background-image: url(../img/colosseum.jpg);
   background-position: center;
   background-size: cover;
+}
+
+/* Map */
+.map-container {
+  display: flex;
+  justify-content: center;
+}
+
+.map {
+  height: 500px;
+  width: min(100% - 10px, 900px);
+  background-color: gray;
+}
+
+/* Header */
+
+footer {
+  background-color: var(--app-black);
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  color: var(--app-white);
+
+  h2 {
+    font-family: "Berkshire Swash", sans-serif;
+    color: var(--app-brown);
+  }
 }
