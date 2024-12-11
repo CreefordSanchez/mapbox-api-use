@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+:root {
+  --app-white: #fff;
+  --app-black: #000;
+  --app-brown: #f4a460;
+}
+
+.container {
+  width: min(100% - 20px, 1100px);
+  margin-inline: auto;
+}
+
+.break {
+  display: block;
+}
+
+.section-break {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}

@@ -1,22 +1,101 @@
 @charset "utf-8";
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-.container {
-  width: min(100% - 20px, 1100px);
-  margin-inline: auto;
-}
-
-html {
-  font-family: "Poppins", sans-serif;
-}
+@import url(./data/reset.css);
+@import url(./data/utility.css);
 
 /* Header */
+header {
+  padding: 15px 0;
+}
+
 .header-container {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  color: var(--app-white);
+}
+
+.logo {  
+  font-family: "Berkshire Swash", sans-serif;
+  color: var(--app-brown);
+}
+
+nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  color: var(--app-white);
+}
+
+
+/* hero banner */
+.hero {
+  background-image: url(../img/hero-banner.jpg);
+  background-size: 120%;
+  background-position:70% 70%;
+}
+
+.hero-overlay {
+  height: 100vh;
+  background-image: linear-gradient(to right, #0000009e , #00000000);
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  height: calc(100% - 69px);
+}
+
+.hero-container {
+  color: var(--app-white);
+
+  h1 {
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--app-white);
+  }
+
+  p {
+    margin: 20px 0;
+  }
+    
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 10px;
+
+  button {
+    height: 49px;
+    width: 144px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+}
+
+.destination-btn {
+  background-color: var(--app-brown);
+  color: var(--app-black);
+}
+
+/* about us section */
+.about-title {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-message {
+  p:nth-of-type(2) {
+    margin: 15px 0;
+  }
+}
+
+/* List of travels section */
+.list-travels {
+  background-color: #f2f2f2;
 }
