@@ -99,3 +99,33 @@ nav a {
 .list-travels {
   background-color: #f2f2f2;
 }
+
+.location {
+  display: flex;
+  justify-content: space-between;
+}
+
+.location-heading p {
+  font-size: 14px;
+}
+
+.location-heading h3 {
+  font-size: 30px;
+}
+
+.photo-trip-box {
+  border: 1px solid #ffffff74;
+  border-radius: 10px;
+}
+
+.location-pic {
+  height: 385px;
+  width: 588px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.mt-fuji {
+  background-image: url(../img/mt-fiji.jpg);
+  background-position: 90% 50%;
+}
