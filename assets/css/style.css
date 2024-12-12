@@ -277,6 +277,12 @@ footer .container {
     font-size: 30px;
   }
 
+  .location {
+    h3 {
+      font-size: 25px;
+    }
+  }
+
   .about-website, .map-heading {
     p {
       font-size: 14px;
@@ -317,6 +323,16 @@ footer .container {
       font-size: 13px;
     }
   }
+
+  .location {
+    h3 {
+      font-size: 20px;
+    }
+
+    button {
+      width: 100px;
+    }
+  }
 }
 
 @media screen and (max-width: 635px){
@@ -342,8 +358,9 @@ footer .container {
       font-size: 12px;
     }
 
-    button {
-      width: 120px;
+    .location-buttons button{
+      height: 30px;
+      width: 95px;  
     }
   }
 }
