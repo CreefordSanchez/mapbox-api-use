@@ -177,6 +177,10 @@ nav a {
 }
 
 /* Map */
+.mapboxgl-ctrl-logo {
+  display: none !important;
+}
+
 .map-container {
   display: flex;
   justify-content: center;
