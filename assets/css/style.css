@@ -180,14 +180,26 @@ nav a {
   justify-content: center;
 }
 
+.map-btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.track-btn {
+  margin-bottom: 30px;
+  height: 39px;
+  width: 124px;  
+  background-color: var(--app-brown);  
+  border-radius: 5px;
+}
+
 .map {
   height: 500px;
   width: min(100% - 10px, 900px);
   background-color: gray;
 }
 
-/* Header */
-
+/* Footer */
 footer {
   background-color: var(--app-black);
 }
