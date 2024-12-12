@@ -83,19 +83,20 @@ nav a {
   color: var(--app-black);
 }
 
-/* about us section */
-.about-website {
-  background-color: #fef8f2;
-}
-.about-title {
+.title-container {
   display: flex;
   justify-content: center;
 }
 
-.about-us-message {
-  p:nth-of-type(2) {
-    margin: 15px 0;
-  }
+.section-title {
+  font-size: 40px;
+  font-weight: 450;
+}
+
+/* about us section */
+.about-website {
+  background-color: #fef8f2;
+  text-align: center;
 }
 
 /* List of travels section */
@@ -110,12 +111,13 @@ nav a {
 
 .location-heading p {
   font-size: 14px;
-  color: #0d0d0c;
+  color: #6c6c6c;
   width: 400px;
 }
 
 .location-heading h3 {
   font-size: 30px;
+  font-weight: 400;
 }
 
 .photo-trip-box {
@@ -186,11 +188,15 @@ nav a {
 }
 
 .track-btn {
-  margin-bottom: 30px;
+  margin: 30px 0;
   height: 39px;
   width: 124px;  
   background-color: var(--app-brown);  
   border-radius: 5px;
+}
+
+.map-heading {
+  text-align: center;
 }
 
 .map {
