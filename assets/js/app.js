@@ -35,7 +35,6 @@ function mapMarker(longitude, latitude) {
     .addTo(map);
 }
 
-
 function getLocation(possition) {
   let { latitude, longitude } = possition.coords;
   mapMarker(longitude, latitude);
